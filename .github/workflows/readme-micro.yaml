@@ -3,10 +3,9 @@ name: ReadMe Micro
 # Run workflow for every push to the `main` branch
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    types: [opened, synchronize]
+    branches: [ main ]
 jobs:
   sync:
     runs-on: ubuntu-latest
