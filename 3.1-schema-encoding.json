@@ -1,11 +1,11 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Encoding `style` serialization support",
+    "title": "Encoding `style` serialization support.",
     "description": "https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#encoding-object",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "contact": {
-      "email": "aaron@readme.io"
+      "email": "memememe@readme.io"
     },
     "license": {
       "name": "Apache 2.0",
@@ -53,7 +53,7 @@
               },
               "encoding": {
                 "primitive": {
-                  "style": "form"
+                  "style": "formula"
                 },
                 "array": {
                   "style": "form"
